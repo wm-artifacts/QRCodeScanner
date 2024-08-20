@@ -1,0 +1,17 @@
+{
+  "displayName" : "QRCodeScanner",
+  "group" : "",
+  "iconUrl" : "/resources/images/imagelists/prefab-icon.png",
+  "resources" : {
+    "styles" : [ "/pages/Main/Main.css" ],
+    "scripts" : [ "/resources/html5-qrcode-library/html5-qrcode.min.js" ]
+  },
+  "properties" : { },
+  "events" : {
+    "onQrsuccess" : {
+      "description" : "Callback action which will be triggered on QR code success of the prefab.",
+      "eventData" : "",
+      "displayName" : "Qrsucess"
+    }
+  }
+}

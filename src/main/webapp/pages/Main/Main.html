@@ -1,0 +1,10 @@
+<wm-prefab-container name="prefab_container1">
+    <wm-container name="container5">
+        <wm-html name="qrcodescanner-renderer">
+            <div id="reader"></div>
+        </wm-html>
+    </wm-container>
+    <wm-container name="container6" padding="1em unset" class="flex flex-col align-center bordered-bottom-element" horizontalalign="center">
+        <wm-button class="btn-default mw-160" caption="Start Scan" type="button" margin="unset" name="scannerButton" iconclass="" on-click="scannerButtonClick($event, widget)"></wm-button>
+    </wm-container>
+</wm-prefab-container>
