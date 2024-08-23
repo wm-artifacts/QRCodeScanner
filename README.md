@@ -60,7 +60,7 @@ html5QrCode.stop().then((ignore) => {
 ## Events
 onQrsuccess - passes qrcode data on QR code scan success
 
-## How to use the prefab
+## How to use the Prefab
 1. Download and import the prefab.
 2. Publish the prefab to your project.
 3. Drag and drop the prefab on the required page.
